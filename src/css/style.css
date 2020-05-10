@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color:#ff0000;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.chapter1{
+    color: red;
+}
+
+#firstNav{
+    color:rgb(255,0,0);
+}
+
+.box{
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+/* Для работы с задание про книгу в файле selfworkbook.html */
+.swbbody{
+    background-color:rgb(255, 255, 224);
+    font-size: 10pt;
+}
+.swbbookname{
+    color:rgb(204,0,0);
+    text-align: center;
+    font-size: 12pt;
+}
+
+nav {
+    /* position: static;  */ /* самое обычное и статичное значение  */
+    /* position: relative;  *//* применяется если необходимо подвинуть меню с помощью координат */
+    /* position: absolute; */ /* позволяет любой абсолютный элемент распологать где нам хочется */
+    /* position: fixed;  *//* применяется для фиксации элемента на опредленном месте сайта при просмотре и проскроливания */
+    position: inherit; /* обозначает что нужно унаследовать значение этого свойства у родителя */
+    left: 0px;
+    bottom: 50px;
+    /* top, bottom, right, left */
+}
+
+.red {
+    /* position: absolute;
+    left: 30px;
+    bottom: 30px; */
+    background-color:red;
+    height: 150px;
+    /* z-index: -1; */
+}
+
+.example {
+    position: relative;
+}
+
+.imgAlice {
+    display: block;
+    margin: 0 auto;
+    float: right;
+}
